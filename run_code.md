@@ -33,10 +33,11 @@ git push -u origin main
 
 # to pull new changes to my clone, first set upstream to be the original repo
 git remote add upstream https://github.com/karpathy/makemore.git
-git fetch -all
-git checkout main && git merge upstream/master # test this later once new changes have been added
+git fetch --all
+git rebase upstream/master # test this later once new changes have been added
 
-
+# push code to own repo
+git push
 
 ```
 
