@@ -50,7 +50,7 @@ conda install -c conda-forge anaconda pandas jupyterlab
 
 ```
 
-## Start jupyter notebook
+## Start Jupiter notebook
 ```bash
 jupyter notebook
 ```
